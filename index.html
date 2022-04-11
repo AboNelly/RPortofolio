@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <a></a>
+      <h1>Rabab's Portofolio</h1>
+      <nav class="navigation">
+        <ul>
+          <li id="Home">Home</li>
+          <li href="#Skills">Skills</li>
+          <li id="Work">Work</li>
+          <li id="Contact">Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h3 id="background">Who is Rabab?</h3>
+      <p>
+        She was born on 1997 and still a baby, she loves milk tea, veils and
+        long walks on the beach
+      </p>
+      <div class="images">
+        <img class="rabab" src="./Images/Rabab-1.jpg" alt="Rabab" />
+        <img class="rabab" src="Images/rabab-2.jpg" alt="Rabab" />
+        <img class="rabab" src="./Images/rabab-3.jpg" alt="Rabab" />
+        <img class="rabab" src="./Images/rabab-4.jpg" alt="Rabab" />
+      </div>
+      <div class="Skills">
+        <h3 id="Skills">Skills</h3>
+        <ul>
+          <li>Can read baby's minds</li>
+          <li>Very good biter</li>
+          <li>Hopeless Romantic</li>
+        </ul>
+      </div>
+      <h3 id="Work">Work Experience</h3>
+      <div class="workP">
+        <p onclick="showPic1()">Alex Sydney Hospital</p>
+        <p onclick="showPic2()">Smile Center</p>
+        <p onclick="showPic3()">7amoksha center</p>
+        <p onclick="showPic4()">Shadow Teacher at sekemeke School</p>
+      </div>
+      <div class="workImg">
+        <img src="./Images/Alex Sydney.jpg" alt="alex sydney" id="hide1" />
+        <img src="./Images/Smile Center.jpg" alt="Smile center" id="hide2" />
+        <img src="./Images/7oksha.jpg" alt="7amoksha" id="hide3" />
+        <img src="./Images/school.jpg" alt="Shadow" id="hide4" />
+      </div>
+    </main>
+    <footer>
+      <h3 class="con">Contact Information</h3>
+      <div class="contact">
+        <div class="old">
+          <a href="tel:07775000">Call us at 07775000</a>
+          <a href="mailto: abc@example.com">Send Email</a>
+        </div>
+        <div class="social">
+          <a
+            href="http://www.facebook.com"
+            class="fa fa-facebook"
+            target="_blank"
+            ><ion-icon name="logo-facebook"></ion-icon
+          ></a>
+          <a href="http://www.twitter.com" class="fa fa-twitter" target="_blank"
+            ><ion-icon name="logo-twitter"></ion-icon
+          ></a>
+          <a
+            href="http://www.instagram.com"
+            class="fa fa-instagram"
+            target="_blank"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="./main.js"></script>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</html>
